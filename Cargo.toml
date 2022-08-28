@@ -1,0 +1,16 @@
+[package]
+name = "attempted"
+version = "0.1.0"
+edition = "2021"
+authors = ["Hjalte C. Nannestad"]
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+syn = { version = "1.0", features = ["full"] }
+quote = "1.0"
